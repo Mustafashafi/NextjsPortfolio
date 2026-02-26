@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1e3a8a;
+
+  --color-accent-400: #fb923c;
+  --color-accent-500: #f97316;
+  --color-accent-600: #ea580c;
+
+  --color-dark-bg: #0f172a;
+  --color-light-bg: #f8fafc;
+
+  --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  *,
+  ::before,
+  ::after {
+    @apply border-slate-200 dark:border-slate-800;
+  }
+
+  body {
+    @apply antialiased overflow-x-hidden transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-accent-500 dark:from-primary-400 dark:to-accent-400;
+  }
+
+  .glass-panel {
+    @apply bg-white/70 dark:bg-slate-900/70 backdrop-blur-md border border-white/20 dark:border-slate-800/50;
+  }
+}
