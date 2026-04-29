@@ -121,10 +121,10 @@ export default function Navbar() {
                                 {currentTheme === "dark" ? <Sun size={18} className="text-yellow-400" /> : <Moon size={18} className="text-slate-700" />}
                             </button>
                         )}
-                        <a href="https://github.com" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary-500 transition-colors">
+                        <a href="https://github.com/Mustafashafi" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary-500 transition-colors">
                             <Github size={20} />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary-500 transition-colors">
+                        <a href="https://linkedin.com/in/muhammad-mustafa-a946092b1" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary-500 transition-colors">
                             <Linkedin size={20} />
                         </a>
                     </div>
@@ -173,10 +173,10 @@ export default function Navbar() {
                                 </a>
                             ))}
                             <div className="flex space-x-6 pt-4 border-t border-slate-300 dark:border-slate-700 text-slate-500">
-                                <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-primary-500">
+                                <a href="https://github.com/Mustafashafi" target="_blank" rel="noreferrer" className="hover:text-primary-500">
                                     <Github size={24} />
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-primary-500">
+                                <a href="https://linkedin.com/in/muhammad-mustafa-a946092b1" target="_blank" rel="noreferrer" className="hover:text-primary-500">
                                     <Linkedin size={24} />
                                 </a>
                                 <a href="mailto:mustafashafi143@gmail.com" className="hover:text-primary-500">

@@ -85,10 +85,34 @@ export default function Projects() {
             tech: ["React.js", "Tailwind CSS", "Framer Motion"],
             image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
             live: "https://mustafa-portfolio32.netlify.app"
+        },
+        {
+            title: "Skyrasoft",
+            category: "WordPress",
+            description: "A comprehensive digital agency platform offering WordPress development, SEO, and CRM consulting services.",
+            tech: ["WordPress", "Elementor", "SEO", "UI/UX"],
+            image: "/skyrasoft.png",
+            live: "https://skyrasoft.com/"
+        },
+        {
+            title: "Faceit Analyser",
+            category: "WordPress",
+            description: "Advanced analytics platform for CS2 players to track statistics, ELO rankings, and competitive performance.",
+            tech: ["WordPress", "Elementor", "API Integration", "Analytics"],
+            image: "/faceit.png",
+            live: "https://faceitanalyser.net/"
+        },
+        {
+            title: "Skynish",
+            category: "WordPress",
+            description: "Premium e-commerce platform for skincare and beauty products with integrated shopping and blog features.",
+            tech: ["WordPress", "Elementor", "E-commerce", "Responsive Design"],
+            image: "/skynish.png",
+            live: "https://skynish.com/"
         }
     ];
 
-    const categories = ["All", "Frontend", "Backend", "Fullstack", "Python", "C++", "UI/UX"];
+    const categories = ["All", "Frontend", "Backend", "Fullstack", "WordPress", "Python", "C++", "UI/UX"];
 
     const filteredProjects = filter === "All"
         ? projects

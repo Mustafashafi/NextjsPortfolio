@@ -16,7 +16,7 @@ export default function Skills() {
             bgColor: "bg-blue-500",
             lightBg: "bg-blue-50 dark:bg-blue-900/30",
             borderColorHover: "hover:border-blue-500/50 hover:shadow-blue-500/20",
-            skills: ["React.js", "Next.js", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"]
+            skills: ["React.js", "Next.js", "JavaScript", "Tailwind CSS", "WordPress", "Elementor"]
         },
         {
             title: "Backend Development",
@@ -57,6 +57,16 @@ export default function Skills() {
             lightBg: "bg-yellow-50 dark:bg-yellow-900/30",
             borderColorHover: "hover:border-yellow-500/50 hover:shadow-yellow-500/20",
             skills: ["Git & GitHub", "VS Code", "Figma", "XAMPP", "IT Support", "Networking"]
+        },
+        {
+            title: "Core Computer Science",
+            icon: <Code2 size={24} />,
+            description: "Strong theoretical foundation in computer science principles and systems.",
+            color: "text-red-500",
+            bgColor: "bg-red-500",
+            lightBg: "bg-red-50 dark:bg-red-900/30",
+            borderColorHover: "hover:border-red-500/50 hover:shadow-red-500/20",
+            skills: ["Data Structures", "Algorithms", "Computer Networks", "Database Management", "Software Engineering"]
         }
     ];
 
