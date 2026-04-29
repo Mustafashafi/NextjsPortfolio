@@ -16,7 +16,7 @@ export default function Skills() {
             bgColor: "bg-blue-500",
             lightBg: "bg-blue-50 dark:bg-blue-900/30",
             borderColorHover: "hover:border-blue-500/50 hover:shadow-blue-500/20",
-            skills: ["React.js", "Next.js", "JavaScript", "Tailwind CSS", "WordPress", "Elementor"]
+            skills: ["React.js", "Next.js (Basics)", "JavaScript", "Tailwind CSS", "WordPress", "Elementor"]
         },
         {
             title: "Backend Development",
@@ -26,7 +26,7 @@ export default function Skills() {
             bgColor: "bg-orange-500",
             lightBg: "bg-orange-50 dark:bg-orange-900/30",
             borderColorHover: "hover:border-orange-500/50 hover:shadow-orange-500/20",
-            skills: ["Node.js", "Express.js", "PHP"]
+            skills: ["Node.js (Basics)", "Express.js", "PHP"]
         },
         {
             title: "Databases",
@@ -36,7 +36,7 @@ export default function Skills() {
             bgColor: "bg-purple-500",
             lightBg: "bg-purple-50 dark:bg-purple-900/30",
             borderColorHover: "hover:border-purple-500/50 hover:shadow-purple-500/20",
-            skills: ["MySQL", "MongoDB"]
+            skills: ["MySQL", "MongoDB (Basics)"]
         },
         {
             title: "Programming Languages",

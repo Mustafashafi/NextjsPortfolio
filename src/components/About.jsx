@@ -96,8 +96,8 @@ export default function About() {
                                     I'm a dedicated Frontend Developer who loves turning complex problems into simple, beautiful, and intuitive designs. With a background in Computer Science, I blend technical expertise with a keen eye for design.
                                 </p>
                                 <p>
-                                    My journey began by exploring how the web works, which quickly evolved into building scalable applications using React, Next.js, and modern CSS frameworks like Tailwind.
-                                    In addition to frontend, I have backend experience with Node.js and PHP, allowing me to understand and integrate full-stack systems smoothly.
+                                    My journey began by exploring how the web works, which quickly evolved into building scalable applications using React, Next.js (Basics), and modern CSS frameworks like Tailwind.
+                                    In addition to frontend, I have experience with Node.js (Basics), MongoDB (Basics), and PHP, allowing me to understand and integrate full-stack systems smoothly.
                                 </p>
                                 <p>
                                     When I'm not coding, I'm exploring new technologies, refining my UI/UX skills in Figma, or troubleshooting software & networks. I thrive in responsive, dynamic environments.

@@ -58,8 +58,7 @@ export default function Hero() {
 
                         <motion.p variants={childVariants} className="text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-10 max-w-xl leading-relaxed">
                             A passionate Frontend Developer & Computer Science graduate from UET Mardan.
-                            I specialize in React.js, Next.js, and creating stunning, accessible user interfaces
-                            with smooth animations.
+                            I specialize in React.js, Next.js (Basics), Node.js (Basics), and MongoDB (Basics) to create stunning, accessible, and full-featured digital experiences.
                         </motion.p>
 
                         <motion.div variants={childVariants} className="flex flex-wrap gap-4">
