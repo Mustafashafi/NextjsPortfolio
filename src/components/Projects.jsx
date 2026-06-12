@@ -9,6 +9,23 @@ export default function Projects() {
 
     const projects = [
         {
+            title: "Enterprise College ERP & CRM",
+            category: "Fullstack",
+            description: "A highly scalable, multi-role ERP and CRM system to automate admissions, manage portals, and digitize administrative workflows.",
+            tech: ["React.js", "Node.js", "MongoDB", "Express.js", "AWS S3"],
+            image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+            live: "https://college-management-system-hazel-chi.vercel.app/",
+            github: "https://github.com/Mustafashafi/collegeManagementSystem.git"
+        },
+        {
+            title: "Tour Booking Platform",
+            category: "Fullstack",
+            description: "A modern web application to browse and book tours. Features dynamic tour selection, an advanced cart system, and admin dashboard.",
+            tech: ["React.js", "Node.js", "MongoDB", "Express.js"],
+            image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80",
+            github: "https://github.com/Mustafashafi/Tourism-site.git"
+        },
+        {
             title: "Hifz Master",
             category: "Python",
             description: "Quran recitation correction system using Vosk & Whisper voice processing. Advanced STT tools connected for highly accurate matching.",
